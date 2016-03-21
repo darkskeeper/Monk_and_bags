@@ -8,8 +8,9 @@ int main()
     cin >> T;
     while( T-- )
     {
-        priority_queue <int> bags;
-        int Nbag, Ncand, Teat, Neat = 0;
+        priority_queue <long> bags;
+        int Nbag, Teat;
+        long Ncand, Neat = 0;
         cin >> Nbag >> Teat;
         for (int i = 0; i < Nbag; i++)
         {
